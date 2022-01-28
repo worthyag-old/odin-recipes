@@ -1,0 +1,57 @@
+body {
+  margin: 0 3%;
+}
+
+/* h2, p, ul, ol {
+  text-align: left;
+} */
+
+.recipe-header {
+  width: auto;
+  height: 250px;
+  position: relative;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.recipe-header img {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.recipe-header h1 {
+  font-size: 48px;
+}
+
+.recipe-header h1, .recipe-header h2, .recipe-header p {
+  position: relative;
+  left: 16%;
+  width: 55%;
+  top: 12%;
+}
+
+.double h1, .double h2, .double p {
+  position: relative;
+  left: 32%;
+  width: 55%;
+  top: 12%;
+}
+
+.recipe-ingredients, .recipe-steps {
+  border: solid rgb(0,0,0) 2px;
+  margin: 2% 0;
+  padding: 0 2%;
+}
+
+/* .back {
+  background-color: rgb(48, 183, 201);
+  color: rgb(255,255,255);
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 45%;
+  margin-bottom: 2%;
+  border: solid rgb(0, 0, 0) 1px;
+} */

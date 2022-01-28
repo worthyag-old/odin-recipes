@@ -1,0 +1,59 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: none;
+  padding: none;
+}
+
+.title {
+  text-align: center;
+  border-bottom: solid rgb(0,0,0) 2px;
+  width: 100%;
+}
+
+.recipe-img {
+  width: auto;
+  height: 300px;
+  position: relative;
+  margin: 5% 15%;
+}
+.recipe-img img {
+  width: auto;
+  height: 100%;
+  position: relative;
+  filter: brightness(50%);
+  border: solid rgb(0,0,0) 2px;
+}
+
+.recipe-img img:hover {
+  filter: brightness(100%);
+}
+
+.recipe-img img:hover  + .recipe-name {
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a .recipe-name {
+  position: absolute;
+  top: 45%;
+  color: rgb(255, 255, 255);
+}
+
+/* .recipe-name:hover {
+  color: rgb(0, 0, 0);
+} */
+
+a .one {
+  left: 4%;
+}
+
+a .two {
+  left: 42%;
+}
+
+a .three {
+  left: 79.2%;
+}
+
+
