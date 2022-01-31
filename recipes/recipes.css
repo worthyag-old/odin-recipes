@@ -45,7 +45,7 @@ body {
   padding: 0 2%;
 }
 
-/* .back {
+.back {
   background-color: rgb(48, 183, 201);
   color: rgb(255,255,255);
   padding: 5px 10px;
@@ -54,4 +54,5 @@ body {
   left: 45%;
   margin-bottom: 2%;
   border: solid rgb(0, 0, 0) 1px;
-} */
+  cursor: pointer;
+}
