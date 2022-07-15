@@ -46,13 +46,18 @@ body {
 }
 
 .back {
-  background-color: rgb(48, 183, 201);
-  color: rgb(255,255,255);
+  background-color: lightskyblue;
+  color: #000;
+  font-weight: bold;
   padding: 5px 10px;
   border-radius: 5px;
   position: relative;
   left: 45%;
   margin-bottom: 2%;
-  border: solid rgb(0, 0, 0) 1px;
+  border: solid rgb(0, 0, 0) 2px;
   cursor: pointer;
+}
+
+.back:hover {
+  background-color: inherit;
 }
