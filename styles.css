@@ -36,6 +36,14 @@
   border-radius: 5px;
 }
 
+.second {
+  width: 50%;
+}
+
+.first, .third {
+  width: 25%;
+}
+
 a .recipe-name {
   position: absolute;
   top: 45%;
